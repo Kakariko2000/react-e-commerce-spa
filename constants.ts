@@ -1,0 +1,68 @@
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: "Jaqueta de Couro Clássica",
+    price: 199.99,
+    description: "Um clássico atemporal. Esta jaqueta de couro genuíno é perfeita para qualquer ocasião, oferecendo estilo e durabilidade.",
+    category: "Vestuário",
+    stock: 15,
+  },
+  {
+    id: 2,
+    name: "Fones de Ouvido com Cancelamento de Ruído",
+    price: 249.50,
+    description: "Mergulhe no som. Com cancelamento de ruído líder da indústria e 30 horas de bateria, estes fones de ouvido são o melhor amigo do viajante.",
+    category: "Eletrônicos",
+    stock: 30,
+  },
+  {
+    id: 3,
+    name: "Relógio Minimalista Moderno",
+    price: 150.00,
+    description: "Elegância na simplicidade. Este relógio apresenta um mostrador limpo e minimalista com uma pulseira de malha de aço inoxidável.",
+    category: "Acessórios",
+    stock: 25,
+  },
+  {
+    id: 4,
+    name: "Cadeira de Escritório Ergonômica",
+    price: 350.00,
+    description: "Apoie suas costas e aumente sua produtividade. Totalmente ajustável com suporte lombar e malha respirável.",
+    category: "Móveis",
+    stock: 10,
+  },
+  {
+    id: 5,
+    name: "Amostra de Grãos de Café Gourmet",
+    price: 45.99,
+    description: "Explore um mundo de sabores. Esta amostra inclui quatro variedades de grãos de café únicos e de origem ética de todo o mundo.",
+    category: "Mercearia",
+    stock: 50,
+  },
+  {
+    id: 6,
+    name: "Faca de Chef Profissional",
+    price: 89.95,
+    description: "A única faca que você precisará. Forjada em aço alemão de alto carbono para nitidez e equilíbrio excepcionais.",
+    category: "Utensílios de Cozinha",
+    stock: 20,
+  },
+  {
+    id: 7,
+    name: "Rastreador Fitness Inteligente",
+    price: 129.00,
+    description: "Acompanhe sua atividade, frequência cardíaca e padrões de sono. Resistente à água e com um vibrante display AMOLED.",
+    category: "Eletrônicos",
+    stock: 40,
+  },
+  {
+    id: 8,
+    name: "Mochila de Aventura em Lona",
+    price: 75.00,
+    description: "Durável e estilosa, esta mochila está pronta para seu trajeto diário ou uma aventura de fim de semana. Possui um compartimento acolchoado para laptop.",
+    category: "Acessórios",
+    stock: 35,
+  },
+];

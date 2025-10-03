@@ -1,0 +1,5 @@
+{
+  "name": "React E-Commerce SPA",
+  "description": "A modern single-page application for e-commerce, built with React and Tailwind CSS. It features a product catalog, shopping cart with local storage persistence, and a simulated multi-step checkout process.",
+  "requestFramePermissions": []
+}
