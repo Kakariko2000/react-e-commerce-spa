@@ -42,8 +42,15 @@ const ProductDetailPage: React.FC = () => {
   
   return (
     <div className="container mx-auto px-6 py-12">
-      <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-2xl mx-auto">
-        <div className="p-8">
+      <div className="bg-white rounded-lg shadow-xl overflow-hidden max-w-4xl mx-auto lg:flex">
+        <div className="lg:w-1/2">
+          <img 
+            src={product.imageUrl} 
+            alt={product.name} 
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="p-8 lg:w-1/2">
           <h2 className="text-sm uppercase text-gray-500 tracking-widest">{product.category}</h2>
           <h1 className="text-4xl font-bold text-gray-900 mt-2">{product.name}</h1>
           <p className="text-gray-600 mt-4">{product.description}</p>

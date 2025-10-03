@@ -8,6 +8,7 @@ export const PRODUCTS: Product[] = [
     description: "Um clássico atemporal. Esta jaqueta de couro genuíno é perfeita para qualquer ocasião, oferecendo estilo e durabilidade.",
     category: "Vestuário",
     stock: 15,
+    imageUrl: "/images/jaqueta-couro-classica.jpg",
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const PRODUCTS: Product[] = [
     description: "Mergulhe no som. Com cancelamento de ruído líder da indústria e 30 horas de bateria, estes fones de ouvido são o melhor amigo do viajante.",
     category: "Eletrônicos",
     stock: 30,
+    imageUrl: "/images/fones-cancelamento-ruido.jpg",
   },
   {
     id: 3,
@@ -24,6 +26,7 @@ export const PRODUCTS: Product[] = [
     description: "Elegância na simplicidade. Este relógio apresenta um mostrador limpo e minimalista com uma pulseira de malha de aço inoxidável.",
     category: "Acessórios",
     stock: 25,
+    imageUrl: "/images/relogio-minimalista.jpg",
   },
   {
     id: 4,
@@ -32,6 +35,7 @@ export const PRODUCTS: Product[] = [
     description: "Apoie suas costas e aumente sua produtividade. Totalmente ajustável com suporte lombar e malha respirável.",
     category: "Móveis",
     stock: 10,
+    imageUrl: "/images/cadeira-escritorio-ergonomica.jpg",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export const PRODUCTS: Product[] = [
     description: "Explore um mundo de sabores. Esta amostra inclui quatro variedades de grãos de café únicos e de origem ética de todo o mundo.",
     category: "Mercearia",
     stock: 50,
+    imageUrl: "/images/cafe-gourmet.jpg",
   },
   {
     id: 6,
@@ -48,6 +53,7 @@ export const PRODUCTS: Product[] = [
     description: "A única faca que você precisará. Forjada em aço alemão de alto carbono para nitidez e equilíbrio excepcionais.",
     category: "Utensílios de Cozinha",
     stock: 20,
+    imageUrl: "/images/faca-chef-profissional.jpg",
   },
   {
     id: 7,
@@ -56,6 +62,7 @@ export const PRODUCTS: Product[] = [
     description: "Acompanhe sua atividade, frequência cardíaca e padrões de sono. Resistente à água e com um vibrante display AMOLED.",
     category: "Eletrônicos",
     stock: 40,
+    imageUrl: "/images/rastreador-fitness.jpg",
   },
   {
     id: 8,
@@ -64,5 +71,6 @@ export const PRODUCTS: Product[] = [
     description: "Durável e estilosa, esta mochila está pronta para seu trajeto diário ou uma aventura de fim de semana. Possui um compartimento acolchoado para laptop.",
     category: "Acessórios",
     stock: 35,
+    imageUrl: "/images/mochila-aventura.jpg",
   },
 ];

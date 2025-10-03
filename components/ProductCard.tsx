@@ -16,6 +16,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-1 transition-transform duration-300 flex flex-col">
+      <Link to={`/produto/${product.id}`}>
+        <img 
+          src={product.imageUrl} 
+          alt={product.name} 
+          className="w-full h-48 object-cover"
+        />
+      </Link>
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl font-semibold text-gray-800 mb-2 truncate">
             <Link to={`/produto/${product.id}`} className="hover:text-indigo-600">{product.name}</Link>
